@@ -1,0 +1,48 @@
+<!--
+  Filename: index.html
+  Project: Palindrome Checker
+  Author: Jeremy Gammill | github.com/Jeremy-Gammill
+  Date Created: March 22, 2024
+  Last Modified: March 24, 2024
+  License: MIT
+  Description:
+    Developed for the freeCodeCamp JavaScript Algorithms and Data Structures certification.
+  
+    Key Features:
+    - Accepts text input from the user.
+    - Cleans the string by removing all non-alphanumeric characters.
+    - Evaluates the cleaned string to determine if it is a palindrome.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Palindrome Checker</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <div class="palindrome-input-container">
+            <label for="text-input" class="question">Is it a Palindrome?</label>
+            <p class="directions">Enter text below to check.</p>
+            <input id="text-input" />
+            <button id="check-btn">Check</button>
+            <div id="result"></div>
+        </div>
+        <div class="palindrome-definition-container">
+            <p class="definition">
+                A <em>palindrome</em> is a word, sentence, verse, or number that reads the same backward or forward.
+                Example words would be <strong>madam</strong> and <strong>racecar</strong>.
+            </p>
+            <p>
+                This tool filters out special characters and evaluates only case-insensitive alphanumeric input.
+            </p>
+        </div>
+    </main>
+</body>
+
+<!-- Due to a quirk with the freeCodeCamp live editor, scripts must be placed at the end of the HTML; 'defer' is not sufficient. -->
+<script src="script.js" defer></script>
+</html>
