@@ -2,6 +2,10 @@
 
 This web application checks whether a given input is a palindrome. A palindrome is a word, sentence, verse, or number that reads the same backward or forward. Example words would be madam and racecar. 
 
+## Live Demo
+
+This project is hosted live via GitHub Pages:  [palindrome-checker](https://jeremy-gammill.github.io/palindrome-checker/)
+
 ## Features
 
 - **User Input**: Accepts text input from the user.
@@ -32,6 +36,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 **Jeremy Gammill**
-- GitHub: [github.com/Jeremy-Gammill](https://github.com/Jeremy-Gammill)
+- GitHub: [github.com/jeremy-gammill](https://github.com/jeremy-gammill)
 
 Please feel free to connect with me on GitHub and check out my other projects.
