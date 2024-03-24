@@ -132,7 +132,6 @@ p.definition strong {
 
 @media (max-width: 500px) {
     div.palindrome-input-container label.question {
-        font-size: 2em;
         font-size: 7vw;
     }
 }
