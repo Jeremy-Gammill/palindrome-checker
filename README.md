@@ -15,7 +15,7 @@ This project is hosted live via GitHub Pages:  [palindrome-checker](https://jere
 ## How to Use
 
 1. Enter any text into the input field.
-2. Click the "Check" button to evaluate the input.
+2. Click the "Check" button or press [enter] to evaluate the input.
 3. The application will display whether the entered text is a palindrome or not.
 
 ## Project Structure
