@@ -5,7 +5,7 @@
  * 
  * Author: Jeremy Gammill | github.com/jeremy-gammill
  * Date Created: March 22, 2024
- * Last Modified: March 24, 2024
+ * Last Modified: April 1, 2024
  * License: MIT
  * 
  * Description:
@@ -24,6 +24,11 @@ const inputBox = document.getElementById('text-input');
 const resultContainer = document.getElementById('result');
 
 checkBtn.addEventListener('click', testPalindrome);
+inputBox.addEventListener('keydown', (e) => {
+    if (e.key === "Enter") {
+        testPalindrome();
+    }
+});
 
 function inputIsEmpty(inputText) {
     return inputText === "";
