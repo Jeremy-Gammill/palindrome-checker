@@ -4,7 +4,7 @@ This web application checks whether a given input is a palindrome. A palindrome 
 
 ## Live Demo
 
-This project is hosted live via GitHub Pages:  [palindrome-checker](https://jeremy-gammill.github.io/palindrome-checker/)
+You can try out the validator live on GitHub Pages:  [palindrome-checker](https://jeremy-gammill.github.io/palindrome-checker/)
 
 ## Features
 
